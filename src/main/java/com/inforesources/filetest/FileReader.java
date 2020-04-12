@@ -23,18 +23,6 @@ public class FileReader implements RequestHandler<S3Event, String> {
 
 	private AmazonS3 s3 = AmazonS3ClientBuilder.standard().build();
 
-	/*
-	 * public Connection connect(String url, String user, String password,
-	 * Context context) { Connection conn = null; try { conn =
-	 * DriverManager.getConnection(url, user, password); context.getLogger()
-	 * .log("Connected to the PostgreSQL server successfully."); } catch
-	 * (SQLException e) { System.out.println(e.getMessage());
-	 * context.getLogger() .log("Error connecting to PostgreSQL" +
-	 * e.getMessage()); }
-	 * 
-	 * return conn; }
-	 */
-
 	public DataSource pgDataSource(String url, String user, String password,
 			Context context) {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
@@ -70,6 +58,7 @@ public class FileReader implements RequestHandler<S3Event, String> {
 
 		context.getLogger().log("DB_URL: " + url);
 
+		// this is a spring JDBC library object .
 		SimpleJdbcInsert jdbcInsert = new SimpleJdbcInsert(
 				pgDataSource(url, user, password, context))
 						.withTableName("test");
@@ -81,14 +70,6 @@ public class FileReader implements RequestHandler<S3Event, String> {
 
 			BufferedReader br = new BufferedReader(
 					new InputStreamReader(response.getObjectContent()));
-
-			/*
-			 * Connection conn = connect(url, user, password, context); if (conn
-			 * != null) { statement stmt = conn.prepareStatement(
-			 * "insert into test (id, name) values(?, ?)"); br.lines()
-			 * .forEach(line -> context.getLogger().log(">> " + line)); } else {
-			 * context.getLogger().log(">>unable to get connection"); }
-			 */
 
 			if (jdbcInsert != null) {
 				br.lines().forEach(line -> {
