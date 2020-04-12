@@ -57,6 +57,7 @@ public class FileReader implements RequestHandler<S3Event, String> {
 		System.getenv("DB_NAME");
 
 		context.getLogger().log("DB_URL: " + url);
+		context.getLogger().log("DB_USER: " + user);
 
 		// this is a spring JDBC library object .
 		SimpleJdbcInsert jdbcInsert = new SimpleJdbcInsert(
