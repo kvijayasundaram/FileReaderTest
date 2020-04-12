@@ -1,0 +1,14 @@
+com\inforesources\filetest\TestUtils$DynamodbEventMixin.class
+com\inforesources\filetest\TestContext.class
+com\inforesources\filetest\TestUtils$DynamodbEventMixin$AttributeValueMixIn.class
+com\inforesources\filetest\TestUtils$DynamodbEventMixin$RecordMixin.class
+com\inforesources\filetest\FileReaderTest.class
+com\inforesources\filetest\TestUtils$1.class
+com\inforesources\filetest\TestContext$1.class
+com\inforesources\filetest\TestUtils$DynamodbEventMixin$StreamRecordMixin.class
+com\inforesources\filetest\TestUtils$TestJacksonMapperModule.class
+com\inforesources\filetest\TestUtils$DateTimeDeserializer.class
+com\inforesources\filetest\TestUtils.class
+com\inforesources\filetest\TestUtils$DateTimeSerializer.class
+com\inforesources\filetest\TestUtils$UpperCaseRecordsPropertyNamingStrategy.class
+com\inforesources\filetest\TestContext$TestLogger.class
