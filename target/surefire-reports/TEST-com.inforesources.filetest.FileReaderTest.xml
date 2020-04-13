@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.inforesources.filetest.FileReaderTest" time="0.283" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.inforesources.filetest.FileReaderTest" time="0.3" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13+33"/>
@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\karthick\Documents\workspace-spring-tool-suite-4-4.4.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf443085917937712587.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\karthick\Documents\workspace-spring-tool-suite-4-4.4.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4107220318992033520.tmp"/>
     <property name="jansi.force" value="true"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-13/bin/server;C:/Program Files/Java/jdk-13/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Java\jdk-13\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\apache-maven-3.5.0\bin\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Anaconda3;C:\Program Files\Anaconda3\Scripts;C:\Program Files\Anaconda3\Library\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\PuTTY\;;C:\Program Files (x86)\Brackets\command;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\karthick\AppData\Local\Microsoft\WindowsApps;C:\Users\karthick\AppData\Roaming\npm;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2\bin;;C:\STS\sts-4.4.0.RELEASE;;."/>
@@ -59,5 +59,5 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.inforesources.filetest.FileReaderTest" name="testFileReader" time="0.283"/>
+  <testcase classname="com.inforesources.filetest.FileReaderTest" name="testFileReader" time="0.3"/>
 </testsuite>
