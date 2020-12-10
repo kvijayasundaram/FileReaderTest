@@ -13,6 +13,7 @@ public class TestRecord {
 
 	public static TestRecord parse(String s, char separator) {
 		String[] tokens = s.split("\\s*" + separator + "\\s*");
+		System.out.println("test checkin");
 		if (tokens.length > 1)
 			return new TestRecord(Long.parseLong(tokens[0]), tokens[1]);
 		else
